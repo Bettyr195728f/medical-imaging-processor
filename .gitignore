@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Ignore environments and local data
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore datasets, outputs, and models
+data/
+data_raw/
+outputs/
+*.pth
+*.zip
+
+# Ignore private credentials
+.kaggle/
+kaggle.json
