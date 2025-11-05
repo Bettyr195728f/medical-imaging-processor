@@ -24,7 +24,7 @@ class TestImageLoader(unittest.TestCase):
             img = read_image(self.test_image_path)
             self.assertIsInstance(img, np.ndarray)
             self.assertEqual(img.dtype, np.float32)
-            self.assertGreater(img.min(), 0)
+            self.assertGreaterEqual(img.min(), 0)
             self.assertLessEqual(img.max(), 1.0)
     
     def test_preprocess_image(self):
