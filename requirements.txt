@@ -11,3 +11,4 @@ jupyterlab
 pytest
 torchvision
 scikit-image
+Pillow
