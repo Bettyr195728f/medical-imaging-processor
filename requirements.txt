@@ -1,13 +1,2 @@
 numpy
-pandas
 opencv-python
-matplotlib
-scikit-learn
-torch
-torchvision
-albumentations
-pydicom
-jupyterlab
-pytest
-torchvision
-scikit-image
